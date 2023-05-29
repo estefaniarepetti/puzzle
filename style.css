@@ -1,0 +1,123 @@
+*{
+    padding: 0;
+    margin:0;
+
+}
+
+
+.titulo{
+    font-family: 'Press Start 2P', cursive;
+}
+
+table{
+    margin-left:15%;
+}
+.titulo{
+    text-align: center;
+    padding: 40px;
+}
+.center{
+  display: flex;
+}
+.imagen-ref{
+   float: right;
+margin-left: 20%;
+
+}
+
+button{
+    height: 4em;  
+    margin: 1em 13rem;
+    background-color: #c444e4;
+    border: none;
+    border-radius: 3px;
+    text-transform: uppercase;
+    letter-spacing: 0.5em;
+    transition: all 0.2s cubic-bezier(.4,0,.2,1);
+    font-family: 'Pangolin', cursive;
+}
+
+/* Fondo de cielo */ 
+
+.cielo-1{
+    height: 400vh;
+    background: transparent;
+    position: absolute;
+    
+    
+        -webkit-animation: animaCielo 5s linear infinite backwards running;
+        -moz-animation: animaCielo 5s linear infinite backwards running;
+        -ms-animation: animaCielo 5s linear infinite backwards running;
+        animation: animaCielo 5s linear infinite backwards running;
+
+    .estrella{
+    background: green;
+    position: absolute;
+    width: 4px;
+    height: 4px;
+    border-radius: 50%;
+    }
+
+}
+.cielo-2{
+
+    background: #fff;
+    height: 400%;
+    position: absolute;
+    
+-webkit-animation: animaCielo 3s linear infinite backwards running;
+        -moz-animation: animaCielo 3s linear infinite backwards running;
+        -ms-animation: animaCielo 3s linear infinite backwards running;
+        animation: animaCielo 3s linear infinite backwards running;
+
+
+    .estrellaDos{
+        background: red;
+        position: absolute;
+        width: 4px;
+        height: 4px;
+        border-radius: 50%;
+    }
+}
+
+    @keyframes  animaCielo {
+        0% {
+           top:-100%;
+        }
+        
+        100% {
+            top:0%;
+        }
+    }
+
+    @keyframes  animaCielo{
+        0% {
+           top:-100%;
+        }
+        
+        100% {
+            top:0%;
+        }
+    }
+
+
+    @keyframes animaCielo{
+        0% {
+           top:-100%;
+        }
+        
+        100% {
+            top:0%;
+        }
+    }
+    @-moz-keyframes animaCielo{
+        0% {
+           top:-100%;
+        }
+        
+        100% {
+            top:0%;
+        }
+    }
+
+
